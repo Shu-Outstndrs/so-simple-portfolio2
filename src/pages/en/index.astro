@@ -1,0 +1,56 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  <title>Astro</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300;1,700&family=Noto+Sans+JP:wght@200;400;700&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<Layout />
+
+<style>
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      clip-path: circle(100%);
+    }
+    to {
+      opacity: 1;
+      clip-path: circle(100%);
+    }
+  }
+
+  .revealing {
+    /* Create View Timeline */
+    view-timeline-name: --revealing;
+    view-timeline-axis: block;
+
+    /* Attach animation, linked to the  View Timeline */
+    animation: linear reveal both;
+    animation-timeline: --revealing;
+
+    /* Tweak range when effect should run*/
+    animation-range: entry 45% cover 50%;
+  }
+
+  @keyframes shrink {
+    from {
+      max-width: 100rem;
+      max-height: 100rem;
+    }
+    to {
+      max-width: 36rem /* 576px */;
+      max-height: 48rem /* 768px */;
+    }
+  }
+</style>

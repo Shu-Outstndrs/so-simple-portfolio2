@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Twitter",
+    "lucideIcon": "Twitter",
+    "link": "https://twitter.com/so_to9"
+  },
+  {
+    "title": "Instagram",
+    "lucideIcon": "Instagram",
+    "link": "https://www.instagram.com/so_toku/"
+  },
+  {
+    "title": "Github",
+    "lucideIcon": "Github",
+    "link": "https://github.com/soumame"
+  },
+  {
+    "title": "Email",
+    "lucideIcon": "Mail",
+    "link": "mailto:soumame1090@gmail.com"
+  },
+  {
+    "title": "Buy me a coffee",
+    "lucideIcon": "Coffee",
+    "link": "https://www.buymeacoffee.com/So_to9"
+  },
+  {
+    "title": "Youtube",
+    "lucideIcon": "Youtube",
+    "link": "https://www.youtube.com/channel/UCBuO9jm9QbYOyYwEJHVw-fw"
+  },
+  {
+    "title": "Bitcoin",
+    "lucideIcon": "Bitcoin",
+    "link": "http://google.com"
+  }
+]
